@@ -14,6 +14,7 @@
 		8F1AC8D71F7E578F005234F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1AC8D51F7E578F005234F1 /* LaunchScreen.storyboard */; };
 		8F1AC8E21F7E578F005234F1 /* CalendarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AC8E11F7E578F005234F1 /* CalendarDemoTests.swift */; };
 		8F1AC8ED1F7E5790005234F1 /* CalendarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AC8EC1F7E5790005234F1 /* CalendarDemoUITests.swift */; };
+		8F351C351F8361160039CB22 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F351C341F8361160039CB22 /* CalendarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8F1AC8E81F7E5790005234F1 /* CalendarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1AC8EC1F7E5790005234F1 /* CalendarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDemoUITests.swift; sourceTree = "<group>"; };
 		8F1AC8EE1F7E5790005234F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F351C341F8361160039CB22 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8F1AC8D31F7E578F005234F1 /* Assets.xcassets */,
 				8F1AC8D51F7E578F005234F1 /* LaunchScreen.storyboard */,
 				8F1AC8D81F7E578F005234F1 /* Info.plist */,
+				8F351C341F8361160039CB22 /* CalendarCollectionViewCell.swift */,
 			);
 			path = CalendarDemo;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F351C351F8361160039CB22 /* CalendarCollectionViewCell.swift in Sources */,
 				8F1AC8CF1F7E578F005234F1 /* ViewController.swift in Sources */,
 				8F1AC8CD1F7E578F005234F1 /* AppDelegate.swift in Sources */,
 			);
